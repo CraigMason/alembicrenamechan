@@ -23,7 +23,7 @@ Build
 -----
 
 ```bash
-docker build   --tag alembicrenamechan .
+docker build   --tag stasismedia/alembicrenamechan .
 ```
 
 Usage
@@ -31,7 +31,7 @@ Usage
 
 To launch the docker container and bind the current dir into it:
 ```bash
-docker run --rm -it -v `pwd`:/app alembicrenamechan
+docker run --rm -it -v `pwd`:/app stasismedia/alembicrenamechan
 ```
 
 To rename a channel:
